@@ -22,11 +22,11 @@ const Search = ({properties}) => {
       p='2'
       fontWeight='black'
       fontSize='lg'
-      justifyContent='center'
-      alignItems='center'
+      justifyContent='end'
+      alignItems='end'
     >
       <Text>Search Property By Filters</Text>
-      <Icon paddingLeft='2' w='7' as={BsFilter} />
+      <Icon paddingLeft='2' as={BsFilter} />
     </Flex>
     {searchFilters && <SearchFilters />}
     <Text fontSize='2xl' p='4' fontWeight='bold'>
